@@ -1,0 +1,19 @@
+plugins {
+    id 'maven-publish'
+}
+
+group = 'com.github.AshishkN'
+version = '1.0.0'
+
+publishing {
+    publications {
+        firstLib(MavenPublication) {
+            artifactId = 'contactcenter'
+            artifact file('libs/contact-center-messaging-widget.aar')
+        }
+        secondLib(MavenPublication) {
+            artifactId = 'omnichannel'
+            artifact file('libs/omnichannel-chat-sdk.aar')
+        }
+    }
+}
