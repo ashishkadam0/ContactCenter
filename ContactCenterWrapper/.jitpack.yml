@@ -1,0 +1,10 @@
+jdk:
+  - openjdk17
+
+install:
+  - ./gradlew clean publishToMavenLocal assemble
+
+cache:
+  directories:
+    - ~/.gradle/caches
+    - ~/.gradle/wrapper
