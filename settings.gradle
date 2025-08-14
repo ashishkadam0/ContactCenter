@@ -1,4 +1,1 @@
-rootProject.name = 'contactcenterwrapper'
-
-// Tell Gradle that the “root” project lives in the subfolder
-project(':').projectDir = file('contactcenterwrapper')
+rootProject.name = 'ContactCenter'
