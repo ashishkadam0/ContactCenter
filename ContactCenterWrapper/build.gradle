@@ -3,13 +3,13 @@ plugins {
     id 'maven-publish'
 }
 
-group   = 'com.github.ms-chatsdk'
+group   = 'com.github.mschatsdk'
 version = '1.0.0'
 
 publishing {
     publications {
         firstLib(MavenPublication) {
-            groupId    = project.group.toString()
+            groupId    = 'com.github.mschatsdk'
             version    = project.version.toString()
             artifactId = 'contactcenter'
 
@@ -19,7 +19,7 @@ publishing {
         }
 
         secondLib(MavenPublication) {
-            groupId    = project.group.toString()
+            groupId    = 'com.github.mschatsdk'
             version    = project.version.toString()
             artifactId = 'omnichannel'
 
