@@ -32,6 +32,16 @@ publishing {
                 extension 'aar'
             }
         }
+
+        thirdLib(MavenPublication) {
+            groupId    = 'com.github.mschatsdk'
+            version    = project.version.toString()
+            artifactId = 'adaptivecard'
+
+            artifact(file('libs/adaptivecards-release-ndk28.aar')) {
+                extension 'aar'
+            }
+        }
     }
 
     repositories {

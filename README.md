@@ -1,5 +1,5 @@
 # ContactCenter
 git add .
-git commit -m "YOUR_MESSAGE"
+git commit -m "version change"
 git tag v1.x.x
 git push origin master --tags
