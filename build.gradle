@@ -9,7 +9,7 @@ java {
     }
 }
 group   = 'com.github.mschatsdk'
-version = '1.1.323'
+version = '1.1.328'
 
 publishing {
     publications {
@@ -18,7 +18,7 @@ publishing {
             version    = project.version.toString()
             artifactId = 'contactcenter'
 
-            artifact(file('libs/ContactCenterMessagingWidget-release.aar')) {
+            artifact(file('libs/ContactCenterMessagingWidget.aar')) {
                 extension 'aar'
             }
         }
@@ -28,7 +28,7 @@ publishing {
             version    = project.version.toString()
             artifactId = 'omnichannel'
 
-            artifact(file('libs/omnichannel-chat-sdk.aar')) {
+            artifact(file('libs/OmnichannelChatSDK.aar')) {
                 extension 'aar'
             }
         }
