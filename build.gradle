@@ -18,7 +18,7 @@ publishing {
             version    = project.version.toString()
             artifactId = 'contactcenter'
 
-            artifact(file('libs/ContactCenterMessagingWidget.aar')) {
+            artifact(file('libs/ContactCenterMessagingWidget_1146.aar')) {
                 extension 'aar'
             }
         }
